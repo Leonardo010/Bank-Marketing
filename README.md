@@ -38,4 +38,4 @@
 <li>A empresa deve aumentar o número de ligações no mês de outubro.</li>
 <li>A empresa deve priorizar as ligações quando a taxa euribor trimestral for menor que 1.368</li>
 <li>A empresa deve priorizar pessoas com outros formas de contato que não são telefônicas.</li>
-![](https://github.com/Leonardo010/Bank-Marketing/blob/main/arvore%20de%20decis%C3%A3o/arvore.png#vitrinedev)
+![](https://raw.githubusercontent.com/Leonardo010/Bank-Marketing/main/arvore%20de%20decis%C3%A3o/arvore.png)
