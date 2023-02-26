@@ -1,14 +1,14 @@
 # Bank-Marketing
-<h2>1. Objetivo do projeto<\h2>
+<h2>1. Objetivo do projeto</h2>
 
 <p> Encontrar as o conjunto de características que mais favoreçam o empréstimo da pessoa ao banco. Fazendo com que a empresa economize tempo e melhore seus resultados</p>
 <h2>2. Sobre o dataset<\h2>
 
 <p> O dataset do projeto foi retirado de https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing <\p>
 <p> Originalmente possuia 21 colunas, sendo elas:<\p>
-<li>age<\li>
-<li>job<\li>	
-<li>marital<\li>	
+<li>age
+<li>job
+<li>marital
 <li>education<\li>	
 <li>default<\li>	
 <li>housing<\li>	
