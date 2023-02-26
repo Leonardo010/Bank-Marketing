@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Número de empregados <= 5087.65\ngini = 0.2\nsamples = 30891\nvalue = [27411, 3480]\nclass = não", fillcolor="#e89152"] ;
+1 [label="num dias desde a ultima ligação <= 513.0\ngini = 0.494\nsamples = 3753\nvalue = [2076, 1677]\nclass = não", fillcolor="#fae7d9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="dia da semana_mon <= 0.5\ngini = 0.411\nsamples = 928\nvalue = [268, 660]\nclass = sim", fillcolor="#89c5f0"] ;
+1 -> 2 ;
+3 [label="gini = 0.375\nsamples = 751\nvalue = [188, 563]\nclass = sim", fillcolor="#7bbeee"] ;
+2 -> 3 ;
+4 [label="gini = 0.495\nsamples = 177\nvalue = [80, 97]\nclass = sim", fillcolor="#dceefa"] ;
+2 -> 4 ;
+5 [label="Contato_cellular <= 0.5\ngini = 0.461\nsamples = 2825\nvalue = [1808, 1017]\nclass = não", fillcolor="#f4c8a8"] ;
+1 -> 5 ;
+6 [label="gini = 0.356\nsamples = 457\nvalue = [351, 106]\nclass = não", fillcolor="#eda775"] ;
+5 -> 6 ;
+7 [label="gini = 0.473\nsamples = 2368\nvalue = [1457, 911]\nclass = não", fillcolor="#f5d0b5"] ;
+5 -> 7 ;
+8 [label=" índice de confiança do consumidor <= -46.65\ngini = 0.124\nsamples = 27138\nvalue = [25335, 1803]\nclass = não", fillcolor="#e78a47"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="taxa euribor trimestral <= 1.378\ngini = 0.326\nsamples = 2052\nvalue = [1631, 421]\nclass = não", fillcolor="#eca26c"] ;
+8 -> 9 ;
+10 [label="gini = 0.494\nsamples = 243\nvalue = [135, 108]\nclass = não", fillcolor="#fae6d7"] ;
+9 -> 10 ;
+11 [label="gini = 0.286\nsamples = 1809\nvalue = [1496, 313]\nclass = não", fillcolor="#ea9b62"] ;
+9 -> 11 ;
+12 [label="mês_oct <= 0.5\ngini = 0.104\nsamples = 25086\nvalue = [23704, 1382]\nclass = não", fillcolor="#e78845"] ;
+8 -> 12 ;
+13 [label="gini = 0.102\nsamples = 25031\nvalue = [23684, 1347]\nclass = não", fillcolor="#e68844"] ;
+12 -> 13 ;
+14 [label="gini = 0.463\nsamples = 55\nvalue = [20, 35]\nclass = sim", fillcolor="#aad5f4"] ;
+12 -> 14 ;
+}
