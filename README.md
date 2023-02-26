@@ -28,7 +28,7 @@
   <p> Foi eliminada, durante o tratamento dos dados, a coluna duration, que indicava a duração da ligação, pois, como o objetivo do projeto era prever quais clientes estariam mais aptos a fazer o empréstimo e qual não estariam, não faria sentido utilizar essa coluna porque o resultado (fez empréstimo ou não) já seria conhecido ao terminar a ligação.</p>
  <h2>3. Modelos</h2>
 
-<p>Foram testados os modelos Random Forest e Árvore de Decisão. Ambos apresentaram bons desempenhos, 89.46% e 90.14% de acurácia respectivamente. Foi escolhido o modelo de árvore de decisão pois com esse é possível ver as decisões tomadas pelo algoritmo e tirar conclusões.</p>
+<p>Foram testados os modelos Random Forest e Árvore de Decisão. Ambos apresentaram bons desempenhos, 89.46% e 89.91% de acurácia respectivamente. Foi escolhido o modelo de árvore de decisão pois com esse é possível ver as decisões tomadas pelo algoritmo e tirar conclusões.</p>
   
 <h2>4. Resultados</h2>
 <h3>O que deve ser feito?</h3>
