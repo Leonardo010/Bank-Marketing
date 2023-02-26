@@ -6,24 +6,24 @@
 
 <p> O dataset do projeto foi retirado de https://www.kaggle.com/datasets/henriqueyamahata/bank-marketing <\p>
 <p> Originalmente possuia 21 colunas, sendo elas:<\p>
-  <li>age<\li>
-  <li>job<\li>	
-  <li>marital<\li>	
-  <li>education<\li>	
-  <li>default<\li>	
-  <li>housing<\li>	
-  <li>loan<\li>	
-  <li>contact<\li>	
-  <li>month	day_of_week<\li>
-  <li>campaign<\li>	
-  <li>pdays<\li>	
-  <li>previous<\li>	
-  <li>poutcome<\li>	
-  <li>emp.var.rate<\li>	
-  <li>cons.price.idx<\li>	
-  <li>cons.conf.idx<\li>	
-  <li>euribor3m<\li>	
-  <li>nr.employedy<\li>
+<li>age<\li>
+<li>job<\li>	
+<li>marital<\li>	
+<li>education<\li>	
+<li>default<\li>	
+<li>housing<\li>	
+<li>loan<\li>	
+<li>contact<\li>	
+<li>month	day_of_week<\li>
+<li>campaign<\li>	
+<li>pdays<\li>	
+<li>previous<\li>	
+<li>poutcome<\li>	
+<li>emp.var.rate<\li>	
+<li>cons.price.idx<\li>	
+<li>cons.conf.idx<\li>	
+<li>euribor3m<\li>	
+<li>nr.employedy<\li>
   <p> A descrição de cada uma delas se encontra no arquivo bank-additional-names.txt da pasta data.<\p>
   <p> Foi eliminada, durante o tratamento dos dados, a coluna duration, que indicava a duração da ligação, pois, como o objetivo do projeto era prever quais clientes estariam mais aptos a fazer o empréstimo e qual não estariam, não faria sentido utilizar essa coluna porque o resultado (fez empréstimo ou não) já seria conhecido ao terminar a ligação.<\p>
  <h2>3. Modelos<\h2>
